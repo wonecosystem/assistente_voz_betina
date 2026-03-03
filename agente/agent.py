@@ -11,7 +11,7 @@ load_dotenv()
 AGENT_NAME = os.getenv("AGENT_NAME", "Betina")
 USER_NAME = os.getenv("USER_NAME", "")
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "google").lower()
-LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.5-flash-native-audio-latest")
+LLM_MODEL = os.getenv("LLM_MODEL", "gemini-2.0-flash-live-001")
 AGENT_VOICE = os.getenv("AGENT_VOICE", "Kore")
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.6"))
 

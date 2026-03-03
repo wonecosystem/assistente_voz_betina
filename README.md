@@ -23,6 +23,11 @@ Este é o agente base (v1) do projeto Betina. Ele roda em tempo real via WebRTC,
 - Conta no LiveKit Cloud (veja abaixo)
 - Chave de API do Google Gemini ou OpenAI (veja abaixo)
 
+Dar autorização de escrita e gravação
+chmod +x start.sh
+
+./start.sh
+
 ---
 
 ## Criando as contas e chaves necessárias
